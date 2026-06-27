@@ -1,5 +1,7 @@
 import './App.css'
-import { StarRating } from './components/StarRating'
+import  OTPComponent  from './components/OTPComponent'
+// import { Accordion } from './components/Accordion'
+// import { StarRating } from './components/StarRating'
 // import { Counter } from './components/Counter'
 // import { StringDisplay } from './components/StringDisplay'
 // import { Todo } from './components/Todo'
@@ -11,7 +13,9 @@ function App() {
       {/* <Counter/> */}
       {/* <StringDisplay/> */}
       {/* <Todo/> */}
-      <StarRating/>
+      {/* <StarRating/> */}
+      {/* <Accordion/> */}
+      <OTPComponent/>
     </>
   )
 }
