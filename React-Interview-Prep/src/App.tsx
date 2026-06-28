@@ -1,5 +1,7 @@
 import './App.css'
-import  OTPComponent  from './components/OTPComponent'
+import ChipComponent from './components/ChipComponent'
+// import  OTPComponent  from './components/OTPComponent'
+// import TabComponent from './components/TabComponent'
 // import { Accordion } from './components/Accordion'
 // import { StarRating } from './components/StarRating'
 // import { Counter } from './components/Counter'
@@ -15,7 +17,9 @@ function App() {
       {/* <Todo/> */}
       {/* <StarRating/> */}
       {/* <Accordion/> */}
-      <OTPComponent/>
+      {/* <OTPComponent/> */}
+      {/* <TabComponent/> */}
+      <ChipComponent/>
     </>
   )
 }
