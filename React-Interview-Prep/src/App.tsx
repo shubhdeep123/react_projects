@@ -1,5 +1,6 @@
 import './App.css'
-import ChipComponent from './components/ChipComponent'
+// import ChipComponent from './components/ChipComponent'
+import FileNodeParent from './components/FileNodeParent'
 // import  OTPComponent  from './components/OTPComponent'
 // import TabComponent from './components/TabComponent'
 // import { Accordion } from './components/Accordion'
@@ -19,7 +20,8 @@ function App() {
       {/* <Accordion/> */}
       {/* <OTPComponent/> */}
       {/* <TabComponent/> */}
-      <ChipComponent/>
+      {/* <ChipComponent/> */}
+      <FileNodeParent/>
     </>
   )
 }
