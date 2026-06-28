@@ -1,6 +1,7 @@
 import './App.css'
+import DebouncedSearch from './components/DebouncedSearch'
 // import ChipComponent from './components/ChipComponent'
-import FileNodeParent from './components/FileNodeParent'
+// import FileNodeParent from './components/FileNodeParent'
 // import  OTPComponent  from './components/OTPComponent'
 // import TabComponent from './components/TabComponent'
 // import { Accordion } from './components/Accordion'
@@ -21,7 +22,8 @@ function App() {
       {/* <OTPComponent/> */}
       {/* <TabComponent/> */}
       {/* <ChipComponent/> */}
-      <FileNodeParent/>
+      {/* <FileNodeParent/> */}
+      <DebouncedSearch/>
     </>
   )
 }
